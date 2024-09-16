@@ -171,7 +171,7 @@ void QWMainWind::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 9: _t->on_spinBoxFontSize_valueChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 10: _t->on_comboFont_currentIndexChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 11: _t->on_actAbout_triggered((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
-
+        case 12: _t->on_actAbout_triggered(); break;
         default: ;
         }
     }

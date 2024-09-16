@@ -189,7 +189,6 @@ public:
         QObject::connect(actCut, &QAction::triggered, txtEdit, qOverload<>(&QTextEdit::cut));
         QObject::connect(actCopy, &QAction::triggered, txtEdit, qOverload<>(&QTextEdit::copy));
         QObject::connect(actPaste, &QAction::triggered, txtEdit, qOverload<>(&QTextEdit::paste));
-        QObject::connect(actAbout, &QAction::triggered, QWMainWind, qOverload<>(&QMainWindow::close));
 
         QMetaObject::connectSlotsByName(QWMainWind);
     } // setupUi

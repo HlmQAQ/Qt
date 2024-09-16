@@ -106,7 +106,7 @@
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actCut">
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/cut.bmp</normaloff>:/images/images/cut.bmp</iconset>
    </property>
    <property name="text">
@@ -121,7 +121,7 @@
   </action>
   <action name="actCopy">
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/120.bmp</normaloff>:/images/images/120.bmp</iconset>
    </property>
    <property name="text">
@@ -136,7 +136,7 @@
   </action>
   <action name="actPaste">
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/paste.bmp</normaloff>:/images/images/paste.bmp</iconset>
    </property>
    <property name="text">
@@ -154,7 +154,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/BLD.BMP</normaloff>:/images/images/BLD.BMP</iconset>
    </property>
    <property name="text">
@@ -169,7 +169,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/ITL.BMP</normaloff>:/images/images/ITL.BMP</iconset>
    </property>
    <property name="text">
@@ -184,7 +184,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/WORDUNDR.BMP</normaloff>:/images/images/WORDUNDR.BMP</iconset>
    </property>
    <property name="text">
@@ -196,7 +196,7 @@
   </action>
   <action name="actClose">
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/exit.bmp</normaloff>:/images/images/exit.bmp</iconset>
    </property>
    <property name="text">
@@ -208,7 +208,7 @@
   </action>
   <action name="actOpen">
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/open3.bmp</normaloff>:/images/images/open3.bmp</iconset>
    </property>
    <property name="text">
@@ -223,7 +223,7 @@
   </action>
   <action name="actClear">
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/103.bmp</normaloff>:/images/images/103.bmp</iconset>
    </property>
    <property name="text">
@@ -235,7 +235,7 @@
   </action>
   <action name="actFont">
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/20.ico</normaloff>:/images/images/20.ico</iconset>
    </property>
    <property name="text">
@@ -247,7 +247,7 @@
   </action>
   <action name="actNew">
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/new2.bmp</normaloff>:/images/images/new2.bmp</iconset>
    </property>
    <property name="text">
@@ -273,7 +273,7 @@
   </action>
   <action name="actAbout">
    <property name="icon">
-    <iconset>
+    <iconset resource="res.qrc">
      <normaloff>:/images/images/about.BMP</normaloff>:/images/images/about.BMP</iconset>
    </property>
    <property name="text">
@@ -285,7 +285,9 @@
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>actClose</sender>
@@ -364,22 +366,6 @@
     <hint type="destinationlabel">
      <x>260</x>
      <y>256</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>actAbout</sender>
-   <signal>triggered()</signal>
-   <receiver>QWMainWind</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>-1</x>
-     <y>-1</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>489</x>
-     <y>281</y>
     </hint>
    </hints>
   </connection>

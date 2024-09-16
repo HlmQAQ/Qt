@@ -191,3 +191,10 @@ void QWMainWind::on_actAbout_triggered(bool checked)
 
 }
 
+
+void QWMainWind::on_actAbout_triggered()
+{
+    newWindowl *configWindow = new newWindowl;
+    configWindow->show();
+}
+

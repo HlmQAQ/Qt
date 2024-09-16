@@ -6,7 +6,7 @@
 #include    <QProgressBar>
 #include    <QSpinBox>
 #include    <QFontComboBox>
-
+#include    "newwindowl.h"
 
 namespace Ui {
 class QWMainWind;

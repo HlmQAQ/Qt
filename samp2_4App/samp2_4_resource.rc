@@ -1,6 +1,6 @@
 #include <windows.h>
 
-IDI_ICON1	ICON	"C:\\Users\\17007\\Desktop\\QT\\hlmdm\\samp2_4App\\AppIcon.ico"
+IDI_ICON1	ICON	"C:\\Users\\17007\\Desktop\\github\\Qt\\samp2_4App\\AppIcon.ico"
 
 VS_VERSION_INFO VERSIONINFO
 	FILEVERSION 0,0,0,0

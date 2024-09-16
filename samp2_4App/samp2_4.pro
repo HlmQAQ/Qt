@@ -13,11 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
+        newwindowl.cpp \
         qwmainwind.cpp
 
-HEADERS  += qwmainwind.h
+HEADERS  += qwmainwind.h \
+    newwindowl.h
 
-FORMS    += qwmainwind.ui
+FORMS    += qwmainwind.ui \
+    newwindowl.ui
 
 RESOURCES += \
     res.qrc
