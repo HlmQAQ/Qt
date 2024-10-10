@@ -30,6 +30,8 @@ private slots:
 
     void btnbinaryOperateClicked();
 
+    void btnUnaryOperateClicked();
+
     void on_BtnPoint_clicked();
 
     void on_BtnLeft_clicked();
